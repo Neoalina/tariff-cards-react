@@ -1,0 +1,12 @@
+.card-title {
+    background-color: rgb(160, 64, 8);
+}
+
+.card-price {
+    background-color: rgb(240, 128, 100);
+}
+
+.card-body {
+    width: 260px;
+    height: 400px;
+}

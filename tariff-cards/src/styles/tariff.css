@@ -1,0 +1,55 @@
+.card-body {
+    width: 250px;
+}
+
+.card-body-bigger {
+    width: 300px;
+    height: 400px;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(4, 182, 182); */
+
+    margin: 0px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-price {
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(100, 240, 240); */
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.price {
+    font-size: 30px;
+}
+
+.money {
+
+    align-self: start;
+}
+
+.month {
+    align-self: end;
+}
+
+.speed {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(213, 218, 216);
+}
