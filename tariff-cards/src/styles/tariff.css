@@ -1,5 +1,6 @@
-.card_body_selected {
+.selected {
     width: 300px;
+    font-weight: bolder;
 
 }
 

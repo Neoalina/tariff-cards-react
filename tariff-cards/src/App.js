@@ -23,6 +23,7 @@ const tariffs = [{
   price: "550",
   speed: 100,
   theme: {redTheme},
+  isSelected: true,
 },
 {
  
@@ -36,7 +37,7 @@ function App() {
   return (
     <div className="App">
       {tariffs.map((tariff) =>
-      <Tariff title={tariff.title} price={tariff.price} speed={tariff.speed} theme={tariff.theme} />
+      <Tariff title={tariff.title} price={tariff.price} speed={tariff.speed} theme={tariff.theme} isSelected={tariff.isSelected}/>
       )}
       
     </div>

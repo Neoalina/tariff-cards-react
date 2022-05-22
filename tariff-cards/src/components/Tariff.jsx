@@ -12,9 +12,9 @@ function Tariff(props) {
     //     setChecked: !checked;
     // }
     return (
-        <div className='card-body checked' >
-            <h3 className={"card - title" + (props.theme.bg_title)}>Безлимитный {props.price}</h3>
-            <div className={"card-price" + (props.theme.bg_price)}>
+        <div className={'card-body' + (props.isSelected ? "selected" : "")} >
+            <h3 className={props.theme.bg}>Безлимитный {props.price}</h3>
+            <div className="card-price">
                 <div className='money'>руб</div>
                 <div className='price'>{props.price}</div>
                 <div className='month'>/мес</div>
